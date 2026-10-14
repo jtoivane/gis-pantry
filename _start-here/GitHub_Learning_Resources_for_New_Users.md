@@ -7,6 +7,13 @@ Below are examples of important terminology from the GitHub glossary:
 - Pull request: Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators. Like issues, pull requests each have their own discussion forum.
 -	Fork: A fork is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original upstream repository. You can also open a pull request in the upstream repository and keep your fork synced with the latest changes since both repositories are still connected.
 ### The GitHub Docs page has links to further learning resources offered, like documentation on [Repositories](https://docs.github.com/en/repositories), and [Pull requests](https://docs.github.com/en/pull-requests). For a tutorial on using repositories, branches, commits and pull requests go to the [Hello World Tutorial](https://docs.github.com/en/get-started/quickstart/hello-world). 
+
+## Totally new? Forget how clone, fork, or make a pull-request? 
+Follow this beginner step-by-step guide: [GitHub - firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions). 
+This will guide you to to do it all! Fork the repo, clone your fork to your computer, create a branch, update your branch, commit and push the change, and finally open a pull request to sync your changes to the original repo.
+
+**Tip: If cloning with SSH gives you permission errors, copy the HTTPS link and use it instead 'git clone HTTPS link'**
+
 ## How to start working within the bcgov gis-pantry? 
 1. Review the content in the GIS Pantry [_start-here](../_start-here) folder.
 - Start by reading the [GIS_Pantry_QuickStart Doc](<QuickStart - BEGIN HERE.md>)
