@@ -7,10 +7,10 @@ If you want more information about using Git and GitHub in VS Code, please see [
 **Prerequisites:** 
 * GIT (already available in GTS) 
 * Visual Studio Code (already available in GTS)
-* GitHub account ready for use. If not please see [GitHub Account Set UP](./GitHub_Account_Set_Up).
+* GitHub account ready for use. If not please see [GitHub Account Set UP](./GitHub_Account_Set_Up.md).
 
 ## Introduction
-> Since Git and Visual Studio Code are available in our Geospatial Terminal Servers (GTS) we can peform common Git actions like pushing and pulling code, creating and merging branches, and committing code changes right within the VS Code editor. 
+> Since Git and Visual Studio Code are available in our Geospatial Terminal Servers (GTS) we can perform common Git actions like pushing and pulling code, creating and merging branches, and committing code changes right within the VS Code editor. 
 
 ## Workflow Outline
 ### Getting Started with GitHub in VSCode:
@@ -43,7 +43,7 @@ If you want more information about using Git and GitHub in VS Code, please see [
   </li>
   <br>
   <li><p>Use the 'Open Remote Repository' command</p>
-  <img src=../_media/GitHub_VSCode_OpenRemoteRepository.PNG><img src=_media/GitHub_VSCode_OpenRemoteRepository2.PNG>
+  <img src=../_media/GitHub_VSCode_OpenRemoteRepository.PNG><img src=../_media/GitHub_VSCode_OpenRemoteRepository2.PNG>
   <p>You should now have an Open Remote Repository option in your Explorer window. Click this button to be prompted to open a GitHub repository.</p>
   <p>You will now be prompted to sign in using GitHub, opening a web browser which will prompt you to enter your GitHub username and password.</p>
   </li>
@@ -60,7 +60,7 @@ If you want more information about using Git and GitHub in VS Code, please see [
 ### Clone an existing repository to a local folder
 <ol>
   <li><p>Use the 'Clone Repository' command</p>
-  <img src=../_media/GitHub_VSCode_CloneRepo.PNG><img src=_media/GitHub_VSCode_CloneRepo2.PNG>
+  <img src=../_media/GitHub_VSCode_CloneRepo.PNG><img src=../_media/GitHub_VSCode_CloneRepo2.PNG>
   <p>From the Explorer window click the Clone Repository button.</p>
   </li>
   <br>
@@ -144,8 +144,8 @@ If you want more information about using Git and GitHub in VS Code, please see [
 
 # Github Account Authentication - GTS VSCODE 1.96.3
 The following are steps to sign into your bcgov organization github account from vscode
-1. Clone a bcgov organization repository that are a contributor for
-2. Ensure you are not signed in with a unathenticated github account
+1. Clone a bcgov organization repository
+2. Ensure you are not signed in with a unauthenticated github account
 <img src=../_media/GitHub_VSCode_Authentication_Signed_Out.png>
 3. Push to trigger authentication and fill out the authentication popup
 <img src=../_media/GitHub_VSCode_Authentication_Signin.png> 
