@@ -1,5 +1,7 @@
 # Working with branches
 
+Example:
+
 You're working on a fix to bug #104, while Suzette is trying to build a shiny new user interface. If you were both pushing commits to the same place, the commit history would get awfully confusing with high potential for conflicts.
 
 Enter branches. Branches are an integral feature of version control using Git and fundamental to everyday development processes, whether in a collaborative context or otherwise. You can read more about [how branches work](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) but this requires some understand of how Git actually works... 
@@ -47,7 +49,11 @@ The following steps pertain to create pull requests on GitHub, but no doubt you 
 ## Cleanup
   - Finally, you can delete the branch you were working on, since it is likely no longer needed. GH makes this convenient:
 ![image](https://user-images.githubusercontent.com/38586679/173870964-475a0753-2d40-48ce-a1cc-8ec7c4f98cd4.png)
-  - You will still have a local copy of this branch! Keep your local environment tidy by deleting it, unfortunately not currently possible in VS Code (as of 2022-06-15). A quick git command will take care of it:
+  - You will still have a local copy of this branch! Keep your local environment tidy by deleting it, unfortunately not currently possible in VS Code (as of 2022-06-15)
+  It is now 2026 and you can do this now IN VS CODIUM/code: switch to a different branch then you can delete the other one in the search bar 'git: delete branch...'
+
+ OLD METHOD:
+  - . A quick git command will take care of it:
       - Open your repo location in Windows File Explorer, right click and `Git Bash Here` (or you may be able to use powershell terminal in VS Code but I get a `'git' is not recognized` error)
       - Enter `git branch -d <branch-name>` to delete the local branch. You may need to use `-D` to force if you receive an error.
       - Give VS Code a second and your deleted branch will no longer be listed
