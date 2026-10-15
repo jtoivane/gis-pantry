@@ -1,5 +1,4 @@
 ***Tags: #account-setup***
-# test comment
 # Git Hub Account Set-up / Configuration
 If you want to contribute to the GIS Pantry, you will need a GitHub account. If you already have an account, then skip to [account configuration](#account-configuration). If you do not have an account then start below.
 
@@ -39,7 +38,7 @@ We recommend the following account changes before contributing to the GIS Pantry
         *This helps if you signed up for your account with a handle, rather than your real name. Changing your display name allows your colleagues to easily recognize you. You may change this later.*
         - Set Company to "Province of British Columbia"
         - You can also choose an email to display publicly...
-        - You can make other changes as desired. Like adding a bio ![image](./_media/GitHub_account_BasicProfileInfoPNG.PNG)
+        - You can make other changes as desired. Like adding a bio ![image](../_media/GitHub_account_BasicProfileInfoPNG.PNG)
 1. Additionally, continue to customize your account...
    Set up two-factor authentication
    1. Click >> "Password and authentication"
